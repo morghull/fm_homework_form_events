@@ -1,0 +1,40 @@
+:root {
+  font-size: 16px;
+}
+* {
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.form {
+  width: 100vw;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 5px;
+}
+.pairContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.form input {
+  padding: 5px 10px;
+  line-height: 1rem;
+}
+.form .pair + .pair,
+.form button {
+  margin-left: 5px;
+}
+.form button {
+  padding: 5px 10px;
+  line-height: 1rem;
+}
+.form ul {
+  color: white;
+  text-align: center;
+}
