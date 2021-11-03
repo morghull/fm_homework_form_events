@@ -38,3 +38,14 @@ ul {
   color: white;
   text-align: center;
 }
+.form ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+}
+.form ul li button{
+background-color: transparent;
+border: none;
+color: white;
+}
