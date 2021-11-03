@@ -44,8 +44,8 @@ ul {
   align-items: center;
   padding-left: 10px;
 }
-.form ul li button{
-background-color: transparent;
-border: none;
-color: white;
+.form ul li button {
+  background-color: transparent;
+  border: none;
+  color: white;
 }
