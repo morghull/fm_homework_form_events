@@ -28,7 +28,7 @@ form.addEventListener('submit', (e) => {
 const inputOptions = [
   createInputOption('enter full name', '^[A-Z][a-z]{2,11} [A-Z][a-z]{1,16}$'),
   createInputOption('введите ФИО', '^[А-Я][а-я]{1,16} ([А-Я].){2}$'),
-  createInputOption('enter image name', '^[^/\\:*?\"<>|]+\.(png|jpg|jpeg)$'),
+  createInputOption('enter image name', '^[^/\\:*?\"<>|]+\.(png|jpg)$'),
 ];
 document
   .getElementById('pairContainer')
