@@ -1,9 +1,6 @@
 'use strict';
 
 const form = document.getElementById('root-form');
-const validatorFullName = /^[A-Z][a-z]{2,11} [A-Z][a-z]{1,16}$/;
-const validatorFio = /^[А-Я][а-я]{1,16} ([А-Я]\.){2}$/;
-const validatorImages = /^[^$]+\.(png|jpeg)$/;
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
@@ -31,7 +28,7 @@ form.addEventListener('submit', (e) => {
 const inputOptions = [
   createInputOption('enter full name', '^[A-Z][a-z]{2,11} [A-Z][a-z]{1,16}$'),
   createInputOption('введите ФИО', '^[А-Я][а-я]{1,16} ([А-Я].){2}$'),
-  createInputOption('enter image name', '^[^$]+.(png|jpeg)$'),
+  createInputOption('enter image name', '^[^/\\:*?\"<>|]+\.(png|jpg|jpeg)$'),
 ];
 document
   .getElementById('pairContainer')
